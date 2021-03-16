@@ -1,0 +1,63 @@
+html {
+    --biru-muda: #50BAD1;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/img/bg-login.jpg);
+    background-repeat: no-repeat;
+    background-size: 950px 650px;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+.login-field {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 420px;
+    height: 650px;
+    left: 946px;
+    top: -27px;
+    background: #50BAD1;
+    padding: 50px 20px;
+    
+}
+
+.login-field form {
+    padding: 50px 20px;
+}
+
+.login-field input {
+    display: block;
+    width: 100%;
+}
+
+.text-bg {
+    position: absolute;    
+    top: 50%;
+    left: 10%;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Rationale', sans-serif;
+    font-size: 50%;
+}
+
+.gambar {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.gambar img {
+    padding: 10px;
+}
